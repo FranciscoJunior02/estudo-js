@@ -1,0 +1,17 @@
+atribuição via destruturação, basicamente é possivel inverter valores de variaveis, como por exemplo no
+primeiro exercicio onde é invertido o valor de abc, para 123
+
+
+Declaração de funcção, criando a funcção function alguma coisa, por exemplo sempre eleva essa função ao topo, 
+fazendo com que mesmo que voce chame a função antes dela ser declarada a mesma vai funcionar normal
+
+arrow function: As arrow functions permitem ter um retorno implícito, que são valores retornados sem ter 
+que usar a palavar return. O conceito de funcionamento do this pode variar dependendo do 
+contexto e do modo como o JavaScript esta sendo usado (modo strict ou não).
+
+Função do filter funciona como boolean ent se utiliza verdadeiro e falso para afirmar quais valores quer
+que retorna.
+filter -> sempre retorna um array com a mesma quantidade de elementos,
+ou menos. 
+
+foreach so esta disponivel dentro de arrays
