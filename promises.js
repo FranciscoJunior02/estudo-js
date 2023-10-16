@@ -41,15 +41,12 @@ function espera(msg, tempo){
 //Promise.all Promise.race Promise.resolve Promise.reject 
 
 const promises = [
-    'Primeiro valor',
     espera('Promise 1', 3000),
-    espera('Promise 2', 500),
+    espera('Promise 2', 5000),
     espera('Promise 3', 1000),
-    espera(1000, 1000),
-    'Outro valor'
 ];
 
-Promise.all(promises)
+Promise.race(promises)
 .then(function(valor){
     console.log(valor);
 })
